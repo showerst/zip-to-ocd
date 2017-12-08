@@ -16,7 +16,7 @@ ocd_urls = [sldl_url, sldu_url]
 ocd_mapping = {}
 zip_to_ocd_mapping = []
 
-states_to_skip = ['AS','PI','GU','MP','VI','DC']
+states_to_skip = ['AS','PI','GU','MP','VI']
 
 for url in ocd_urls:
     data = urllib.request.urlopen(url)
