@@ -34,8 +34,8 @@ for i in range(800, 852):
 
 ignored_zips.add(str(96799))
 
-
-with open('scripts/2012_Gaz_zcta_national.txt') as cfile:
+# 2012_Gaz_zcta_national is the master list of census zip codes
+with open('scripts/2017_Gaz_zcta_national.txt') as cfile:
     csvfile = csv.reader(cfile, delimiter='\t')
     next(csvfile)
     for line in csvfile:
