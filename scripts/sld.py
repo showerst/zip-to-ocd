@@ -66,4 +66,4 @@ write_outfile = csv.writer(f)
 
 write_outfile.writerow(['zip','ocd','fips','validFrom'])
 for line in zip_to_ocd_mapping:
-    write_outfile.writerow([line[0], line[1], line[2], '2016-01-01'])
+    write_outfile.writerow([line[0], line[1], line[2], '2017-01-12'])
