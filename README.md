@@ -14,9 +14,13 @@ sld.csv contains
  * the FIPS code for the district
  * the minimum valid date for the combination
 
-scripts contains
+/scripts contains
 * the census list of US zip codes
 * scripts to download the census files and generate cd.csv and sld.csv
 * a basic verification script to check that all zips are present at least once in all data sets, excepting ignored zips from US territories
 
- [OpenCivicData identifiers](http://opencivicdata.readthedocs.io/en/latest/ocdids.html) are a standardized identifier format for political divisions and areas of interest.  [Documentation](http://opencivicdata.readthedocs.io/en/latest/ocdids.html) [Full list and code](https://github.com/opencivicdata/ocd-division-ids)
+ [OpenCivicData identifiers](http://opencivicdata.readthedocs.io/en/latest/ocdids.html) are a standardized identifier format for political divisions and areas of interest.
+
+ [Documentation](http://opencivicdata.readthedocs.io/en/latest/ocdids.html)
+
+ [Full list of identifers and generation code](https://github.com/opencivicdata/ocd-division-ids)
